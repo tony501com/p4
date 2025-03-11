@@ -1,7 +1,7 @@
 export async function onRequest(context) {
   const url = "https://node.freeclashnode.com/uploads/2025/03/4-20250303.txt";
 
-  try {
+  try { 
     const response = await fetch(url, {
       headers: {
         "User-Agent": "Mozilla/5.0"
