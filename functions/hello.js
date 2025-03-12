@@ -1,6 +1,6 @@
-// import * as cheerio from 'cheerio';
-const cheerio = require('cheerio');
-  
+import * as cheerio from 'cheerio';
+// import { load } from 'cheerio';
+
 export async function onRequest(context) {
     // 示例 HTML 内容
     const html = `
