@@ -7,14 +7,6 @@
 	"name": "p4",
 	"main": "src/index.js",
 	"compatibility_date": "2025-03-11",
-	"build": {
-		"command": "npm install && npm run build"
-	},
-	"vars": {
-		"EXTERNAL_MODULES": [
-			"cheerio"
-		]
-	},
 	"observability": {
 		"enabled": true
 	}
