@@ -4,7 +4,7 @@ export async function onRequest(context) {
     // 示例 HTML 内容
     const html = `
         <html>
-            <head>
+            <head>  
                 <title>Test Page</title>
             </head>
             <body>
